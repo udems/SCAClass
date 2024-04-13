@@ -11,7 +11,7 @@
             <ul>
                 <li><a href="home.html">Home</a></li>
                 <li><a href="recipes.html">Recipes</a></li>
-                <li><a href="tips.html">Cooking Tips</a></li>
+                <li><a href="tips.html">Baking Tips</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
@@ -19,7 +19,7 @@
 
     <main>
         <h1>Contact Us</h1>
-        <p>Have any question? send a dm , we are happy to reply</p>
+        <p>Have any question? send a message, we are happy to reply</p>
         <section>
             <form action="#" method="post">
                 <label for="name">Name:</label>
@@ -29,15 +29,16 @@
                 <input type="email" id="email" name="email" required><br><br>
 
                 <label for="phone">Phone number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="+2340000000000" ><br><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="08000000000" ><br><br>
                 
                 <label for="message">Message:</label><br>
-                <textarea id="message" name="message"  required></textarea><br><br>
+                <textarea id="message" name="message" rows="4" cols="50"  required></textarea><br><br>
                 
                 <input type="submit" value="Submit">
             </form>
         </section>
     </main>
+    <br><br>
     <footer>
         <p>&copy; 2024 My Bakery Website. All rights reserved.</p>
     </footer>
